@@ -123,12 +123,12 @@ public class CounterTest {
         counter.decrement();
         counter.decrement();
 
-
         int expected = 0;
         int actual = counter.getValue();
 
         assertEquals(expected, actual);
     }
+
     @Test
     public void decrementMin() {
         Counter counter = new Counter();

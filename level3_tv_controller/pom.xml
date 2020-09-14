@@ -4,9 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-
     <groupId>org.example</groupId>
-    <artifactId>exercise1_counternew</artifactId>
+    <artifactId>level3_tv_controller</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <sonar.projectKey>tatianamih_lecture7_Concepts_Of_Object_Oriented_Programminng</sonar.projectKey>
@@ -14,6 +13,7 @@
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.login>a2f7b974568db8508850d00ba5c455ae2a74ecbb</sonar.login>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -32,18 +32,10 @@
             <artifactId>slf4j-log4j12</artifactId>
             <version>1.7.30</version>
         </dependency>
-
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>RELEASE</version>
-            <scope>test</scope>
+            <groupId>org.decimal4j</groupId>
+            <artifactId>decimal4j</artifactId>
+            <version>1.0.3</version>
         </dependency>
     </dependencies>
 
@@ -85,7 +77,7 @@
                                 <rule>
                                     <limits>
                                         <limit>
-                                            <minimum>0.8</minimum>
+                                            <minimum>0.7</minimum>
                                         </limit>
                                     </limits>
                                 </rule>
@@ -99,4 +91,3 @@
 
 
 </project>
-
