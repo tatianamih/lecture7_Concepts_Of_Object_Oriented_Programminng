@@ -7,6 +7,7 @@ public class Book {
     private String bookTitle;
     private int numberOfPages;
 
+    
     public Book() {
         // no args constructor
     }
