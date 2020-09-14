@@ -59,6 +59,7 @@ public class Counter {
             this.value = getValue() - getStep();
         }
     }
+
     public void reset(){
         this.value = 0;
         this.step = 1;

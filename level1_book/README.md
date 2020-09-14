@@ -1,0 +1,1 @@
+ [![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=tatianamih_lecture7_Concepts_Of_Object_Oriented_Programminng)](https://sonarcloud.io/dashboard?id=tatianamih_lecture7_Concepts_Of_Object_Oriented_Programminng)
